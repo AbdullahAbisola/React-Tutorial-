@@ -1,9 +1,10 @@
-import {Header} from "./sections/index.js";
+import {Header, MainPage} from "./sections/index.js";
 
 const App = () => {
     return (
         <main>
             <Header/>
+            <MainPage/>
         </main>
     )
 }
